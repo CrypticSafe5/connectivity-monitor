@@ -1,0 +1,35 @@
+{
+  "name": "connectivity-monitor",
+  "version": "1.0.0",
+  "description": "A tool for monitoring network connectivity",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "build-dev": "tsc -w",
+    "start-dev": "nodemon -w dist dist/index",
+    "dev": "run-p build-dev start-dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrypticSafe5/connectivity-monitor.git"
+  },
+  "keywords": [
+    "network",
+    "ping",
+    "history"
+  ],
+  "author": "CrypticSafe5",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CrypticSafe5/connectivity-monitor/issues"
+  },
+  "homepage": "https://github.com/CrypticSafe5/connectivity-monitor#readme",
+  "devDependencies": {
+    "@types/node": "^18.8.0",
+    "nodemon": "^2.0.20",
+    "npm-run-all": "^4.1.5",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  }
+}
